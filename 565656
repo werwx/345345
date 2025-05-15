@@ -1,0 +1,298 @@
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
+public async Task EnqueueWithPersistenceAsync(DownloadFileItem item)
+{
+    // 数据库写入
+    var dbItem = await _dbService.AddItemAsync(_currentTaskId, item);
+    
+    // 内存队列操作（线程安全）
+    lock (_syncLock)
+    {
+        _downloadQueue.Enqueue(item);
+        Interlocked.Increment(ref _totalFiles);
+        Interlocked.Add(ref _totalDownloadSize, item.File.Size);
+    }
+    
+    // 更新UI（通过Dispatcher保证线程安全）
+    UpdateProgress();
+}
