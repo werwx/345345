@@ -1,0 +1,253 @@
+using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}using (var trans = db.BeginTrans())
+{
+    try 
+    {
+        db.Execute("INSERT INTO log { ... }");
+        db.Execute("UPDATE users SET ...");
+        trans.Commit();
+    }
+    catch 
+    {
+        trans.Rollback();
+    }
+}
